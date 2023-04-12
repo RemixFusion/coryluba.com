@@ -180,7 +180,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <li className="social-icons-twitter">
               <Tooltip text="Twitter" placement="top">
                 <a
-                  href="http://www.twitter.com/"
+                  href="http://www.twitter.com/CoryLuba"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -4,33 +4,33 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Network Engineering",
+      desc: "For consumers, small, medium, and large businesses. Consult with me to upgrade your existing network architecture.",
       icon: "fas fa-palette",
     },
     {
       name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Stunning websites in a variety of HTML languages including Static, React, and Node.JS,
       icon: "fas fa-desktop",
     },
     {
-      name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Search Engine Optimization",
+      desc: "Rank higher on Google and other search engines through the SEO services I provide.",
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "System Administration",
+      desc: "Whether you need a server setup or require an image for a device rollout, I can assist you with your project.",
       icon: "fas fa-paint-brush",
     },
     {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Videography",
+      desc: "Available for in-person and virtual events to provide high-resolution video for your event.",
       icon: "fas fa-chart-area",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Photography",
+      desc: "Have professional photographs taken for your family, office, or other event. Various options are available to pick from.",
       icon: "fas fa-bullhorn",
     },
   ];
