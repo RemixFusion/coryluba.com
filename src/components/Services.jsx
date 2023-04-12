@@ -10,7 +10,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Web Design",
-      desc: "Stunning websites in a variety of HTML languages including Static, React, and Node.JS,
+      desc: "Stunning websites in a variety of HTML languages including Static, React, and Node.JS.",
       icon: "fas fa-desktop",
     },
     {
