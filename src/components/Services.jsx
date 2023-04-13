@@ -26,7 +26,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     {
       name: "Videography",
       desc: "Available for in-person and virtual events to provide high-resolution video for your event.",
-      icon: "fas fa-camera-movie",
+      icon: "fas fa-video",
     },
     {
       name: "Photography",
