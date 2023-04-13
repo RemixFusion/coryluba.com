@@ -4,43 +4,49 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
-      title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
+      yearRange: "2018-2021",
+      title: "Associate Degree",
+      place: "New England Institute of Technology - East Greenwich, RI",
+      desc: "Received an Associates in Network Engineering during the pandemic and transitioned to online learning. Worked particularly with Cisco and Microsoft products, and received several TestOut certifications while attending the college.",
+    },  
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2014 - 2018",
+      title: "High School Diploma",
+      place: "Notre Dame High School - West Haven, CT",
+      desc: "Worked with GoGreenKnights to film school events and occasionally worked with Drama Club/Stage Crew during performances for additional support. Assisted the IT Department as a student intern. Received the Man of the Year award and an IT award.",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2020 - Present",
+      title: "IT Director",
+      place: "Sterling Community School",
+      desc: "Managed the IT infrastructure for Sterling Community School in Sterling, CT with approximately 350 students and 75 staff. Worked with E-Rate to fund additional networking equipment for the district, and several other grants for other items. Worked on several projects including SSO, new desktops, and more to modernize technology. ",
     },
     {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2017 - Present",
+      title: "Contractor",
+      place: "NFHS Network (PlayOn! Sports)",
+      desc: "Worked in conjunction with CIAC/RIIL to live stream high-school sporting events for those respective interscholastic leagues. Worked with a variety of camera, audio, and networking gear to facilitate live streaming in a variety of environments. ",
     },
     {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2019 - 2021",
+      title: "System Administrator",
+      place: "Red Rocket, LLC",
+      desc: "Managed the core network for Red Rocket Net, a wireless ISP (Internet Service Provider) in New Britain, CT. Managed CPEs and server infrastructure for necessary CRM and management platforms. Developed the necessary infrastructure for its parent company, Red Rocket Cloud which provides web, voice, and game hosting to its clients. ",
+    },
+    {
+      yearRange: "2016 - 2018",
+      title: "Intern & Helpdesk",
+      place: "Notre Dame High School",
+      desc: "Provided basic-level IT support for Faculty & Staff including password resets, device upgrades, and board calibrations as necessary. Worked alongside a team of individuals to install over 40 IP cameras, and upgraded a majority of the desktops throughout the building. Managed printers by ordering supplies as necessary and ran cabling to multiple areas of the building to facilitate additional connections. ",
+    },
+    {
+      yearRange: "2012 - 2016",
+      title: "System Administrator",
+      place: "DMTG Technologies",
+      desc: "Managed multiple dedicated servers running Ubuntu on bare metal for hosting providers for voice, games, and web services. Ensured continuity of services through continual maintenance and support for those systems.",
     },
   ];
 
