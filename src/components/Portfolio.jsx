@@ -17,13 +17,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "CIAC Battle of the Fans",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "The Connecticut Interscholastic Athletic Conference (CIAC) announced the Battle of the Fans (BOTF) contest, where schools would produce a video showing the spirit of the student body and their fan sections, with a focus on school events such as athletics and pep rallies. As a student of Notre Dame High School – West Haven, CT and a member of GoGreenKnights, the schools broadcast club I worked in conjunction with Green Machine, the school spirit/fan section club to begin planning and producing the video for the BOTF contest. I had worked primarily on recording and editing the video with occasional input from Green Machine and school officials, while Green Machine worked primarily on the production including interviews and b-roll shots overlayed over audio. <br> Production was done utilizing Adobe Premiere Pro for the entirety of the project, and was shot using a variety of equipment. Interviews were shot using a Panasonic 1080p camera and an external microphone to capture audio due to the inability to capture audio with lavalier microphones. The recording was performed primarily over the course of a week due to the project timeline and to reduce the time students and athletes would be out of classes. <br> Following the submission of the video, Notre Dame High School was selected as a finalist amongst three other schools, then selected as the winner of 2016-2017 Battle of the Fans (BOTF) contest. ",
+      client: "Notre Dame High School",
+      technologies: "Adobe Premiere Pro, DJI Plantom 4",
+      industry: "Videography",
+      date: "February 16, 2017",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
