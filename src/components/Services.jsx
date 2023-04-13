@@ -11,7 +11,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     {
       name: "Web Design",
       desc: "Stunning websites in a variety of HTML languages including Static, React, and Node.JS.",
-      icon: "fas fa-desktop",
+      icon: "fas fa-code",
     },
     {
       name: "Search Engine Optimization",
@@ -21,17 +21,17 @@ const Services = ({ classicHeader, darkTheme }) => {
     {
       name: "System Administration",
       desc: "Whether you need a server setup or require an image for a device rollout, I can assist you with your project.",
-      icon: "fas fa-paint-brush",
+      icon: "fas fa-desktop",
     },
     {
       name: "Videography",
       desc: "Available for in-person and virtual events to provide high-resolution video for your event.",
-      icon: "fas fa-chart-area",
+      icon: "fas fa-camera-movie",
     },
     {
       name: "Photography",
       desc: "Have professional photographs taken for your family, office, or other event. Various options are available to pick from.",
-      icon: "fas fa-bullhorn",
+      icon: "fas fa-camera",
     },
   ];
 
