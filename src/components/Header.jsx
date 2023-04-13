@@ -180,7 +180,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <li className="social-icons-github">
               <Tooltip text="Github" placement="top">
                 <a
-                  href="http://www.github.com/RemixF"
+                  href="http://www.github.com/RemixFusion"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
