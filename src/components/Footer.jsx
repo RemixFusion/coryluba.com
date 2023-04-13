@@ -43,7 +43,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   data-bs-target="#disclaimer"
                   href="#disclaimer"
                 >
-                  Disclaimer
+                  Privacy Policy
                 </a>
               </li>
             </ul>

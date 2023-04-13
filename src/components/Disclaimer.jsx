@@ -19,7 +19,7 @@ const Disclaimer = ({ darkTheme }) => {
         >
           <div className="modal-header">
             <h5 className={"modal-title " + (darkTheme ? "text-white" : "")}>
-              Copyright &amp; Disclaimer
+              Privacy Policy
             </h5>
             <button
               type="button"
