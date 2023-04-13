@@ -6,7 +6,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     {
       name: "Network Engineering",
       desc: "For consumers, small, medium, and large businesses. Consult with me to upgrade your existing network architecture.",
-      icon: "fas fa-palette",
+      icon: "fas fa-ethernet",
     },
     {
       name: "Web Design",
