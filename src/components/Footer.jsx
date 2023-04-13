@@ -33,7 +33,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   data-bs-target="#terms-policy"
                   href="#terms-policy"
                 >
-                  Terms &amp; Conditions
+                  Terms of Use
                 </a>
               </li>
               <li className="nav-item">

@@ -19,7 +19,7 @@ const TermsAndConditions = ({ darkTheme }) => {
         >
           <div className="modal-header">
             <h5 className={"modal-title " + (darkTheme ? "text-white" : "")}>
-              Terms &amp; Policy
+              Terms of Use Policy
             </h5>
             <button
               type="button"
@@ -30,12 +30,7 @@ const TermsAndConditions = ({ darkTheme }) => {
           </div>
           <div className="modal-body p-4">
             <p>
-              Simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book. It has survived not only five
-              centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged.
+              Welcome to coryluba.com! Please take a moment to review the Terms of Use Policy for my portfolio/website. Please feel free to reach out with any related questions using the e-mail posted at the bottom of this module.
             </p>
             <h3 className={"mb-3 mt-4 mt-4 " + (darkTheme ? "text-white" : "")}>
               Terms of Use
