@@ -37,8 +37,12 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-1.jpg",
       sliderImages: [
-        "https://cdn.coryluba.com/CIAC-Battle-of-the-Fans-Video.mp4",
+        "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
+      ],
+      sliderVideos: [
+        "https://cdn.coryluba.com/CIAC-Battle-of-the-Fans-Video.mp4",
+        "https://cdn.coryluba.com/CIAC-Battle-of-the-Fans-Video.mp4",
       ],
       categories: [filters.BRAND],
     },
