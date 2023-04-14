@@ -25,8 +25,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Videography",
       date: "February 16, 2017",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.notredamehs.com",
+        link: "https://www.notredamehs.com",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -37,7 +37,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-1.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
+        "https://cdn.coryluba.com/CIAC-Battle-of-the-Fans-Video.mp4",
         "images/projects/project-5.jpg",
       ],
       categories: [filters.BRAND],
