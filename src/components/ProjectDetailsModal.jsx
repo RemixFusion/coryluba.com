@@ -85,12 +85,11 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
                             <video
-                                id="my-video"
-                                class="video-js"
+                                id="portfolio-video"
+                                class="video-js vjs-default-skin"
                                 controls
                                 preload="auto"
-                                width="640"
-                                height="264"
+                                width="100%"
                                 poster="MY_VIDEO_POSTER.jpg"
                                 data-setup="{}"
                             >
