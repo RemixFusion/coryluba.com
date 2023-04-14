@@ -84,6 +84,13 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         {projectDetails?.sliderVideos?.length > 0 &&
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
+                            <video id="portfolio_video" class="video-js vjs-default-skin" controls preload="auto" width="100%" data-setup='{}'>
+                            <source src="{video}" type="video/mp4" />
+                            </video>
+
+                            <script>
+                            const a = videojs('portfolio_video');
+                            </script>
                                 <video controls width="100%">
                                 <source src={video} type="video/mp4" />
                                 Your browser does not support the video tag.
