@@ -81,30 +81,15 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             <img className="img-fluid" alt="" src={image} />
                           </div>
                         ))}
-                      {projectDetails?.sliderVideos?.length > 0 &&
-                        projectDetails?.sliderImages?.map((video, index) => (
-                          <div className="item" key={index}>
-                            <body>
-                            <video
-                                id="my-video"
-                                class="video-js"
-                                controls
-                                preload="auto"
-                                width="640"
-                                height="264"
-                                poster="MY_VIDEO_POSTER.jpg"
-                                data-setup="{}"
-                                >
-                            <source src="{video}" type="video/mp4" />
-                            <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                            </p>
-                            </video>
-                          </div>
+                        {projectDetails?.sliderVideos?.length > 0 &&
+                          projectDetails?.sliderVideos?.map((video, index) => (
+                            <div className="item" key={index}>
+                                <video controls width="100%">
+                                <source src={video} type="video/mp4" />
+                                Your browser does not support the video tag.
+                                </video>
+                            </div>
                         ))}
-                      <div>
-                        
-                      </div>
                     </Slider>
                   </div>
                   <div className="col-md-5">
