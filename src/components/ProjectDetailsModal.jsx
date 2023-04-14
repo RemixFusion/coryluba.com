@@ -84,17 +84,22 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         {projectDetails?.sliderVideos?.length > 0 &&
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
-                            <video id="portfolio_video" class="video-js vjs-default-skin" controls preload="auto" width="100%" data-setup='{}'>
+                            <video
+                                id="my-video"
+                                class="video-js"
+                                controls
+                                preload="auto"
+                                width="640"
+                                height="264"
+                                poster="MY_VIDEO_POSTER.jpg"
+                                data-setup="{}"
+                            >
                             <source src="{video}" type="video/mp4" />
+                            <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                            </p>
                             </video>
-
-                            <script>
-                            const a = videojs('portfolio_video');
-                            </script>
-                                <video controls width="100%">
-                                <source src={video} type="video/mp4" />
-                                Your browser does not support the video tag.
-                                </video>
+                            <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
                             </div>
                         ))}
                     </Slider>
