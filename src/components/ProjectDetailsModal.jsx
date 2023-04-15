@@ -85,7 +85,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
                             <video
-                                id="portfolio-video"
+                                id="example_video_1"
                                 class="video-js vjs-default-skin"
                                 controls
                                 preload="auto"
@@ -98,9 +98,6 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                             </p>
                             </video>
-                              <script>
-                                const a = videojs('portfolio-video');
-                              </script>
                             </div>
                         ))}
                     </Slider>
