@@ -91,7 +91,6 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                                 preload="auto"
                                 width="100%"
                                 poster="MY_VIDEO_POSTER.jpg"
-                                data-setup='{}'
                             >
                             <source src={video} type="video/mp4" />
                             <p class="vjs-no-js">
