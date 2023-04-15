@@ -85,7 +85,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
                             <video id="stream1" class="test1 video-js vjs-default-skin" data-setup='{ "poster": "img/stream1-1080p.png"}'controls preload="auto">
-                            <source label="1080p" selected="true" type="application/x-mpegURL" src={video}>
+                            <source label="1080p" selected="true" type="application/x-mpegURL" src={video} >
                             </video>
                             <source src={video} type="video/mp4" />
                             <p class="vjs-no-js">
