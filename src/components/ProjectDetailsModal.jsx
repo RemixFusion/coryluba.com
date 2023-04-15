@@ -101,6 +101,10 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             </div>
                         ))}
                     </Slider>
+                    <script>
+                    videojs("example_video_1", {}, function(){
+                    });
+                    </script>
                   </div>
                   <div className="col-md-5">
                     <h4
