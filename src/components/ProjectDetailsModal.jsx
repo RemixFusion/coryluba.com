@@ -85,7 +85,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
                             <video
-                                id="example_video_1"
+                                id="my-video"
                                 class="video-js vjs-default-skin"
                                 controls
                                 preload="auto"
@@ -102,8 +102,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         ))}
                     </Slider>
                     <script>
-                    videojs("example_video_1", {}, function(){
-                    });
+                    var player = videojs('my-video')
                     </script>
                   </div>
                   <div className="col-md-5">
