@@ -11,6 +11,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const filters = {
     VIDEO: "Videos",
+    SYSAD: "System Administration",
     DESIGN: "Design",
     BRAND: "Brand",
     PHOTOS: "Photos",
@@ -74,16 +75,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.VIDEO],
     },
     {
-      title: "Project Title 3",
+      title: "MegaCraft",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "Configured a complete environment for hosting game services for MegaCraft and implemented industry standard security practices. This includes configuration of several internal assets, such as websites, which directly integrate with the game to provide useful information. Continual monitoring and support was included in this project, allowing for quick intervention whenever an outage ocurred.",
+      client: "MegaCraft",
+      technologies: "Virtualization, Linux, Minecraft",
+      industry: "System Administration",
+      date: "2015",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.megacrafting.com",
+        link: "https://www.megacrafting.com",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -92,12 +93,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-3.jpg",
+      thumbImage: "https://cdn.coryluba.com/portfolio/megacraft/1.png",
       sliderImages: [
-        "images/projects/project-3.jpg",
-        "images/projects/project-5.jpg",
+        "https://cdn.coryluba.com/portfolio/megacraft/2.png",
+        "https://cdn.coryluba.com/portfolio/megacraft/3.png",
+        "https://cdn.coryluba.com/portfolio/megacraft/4.png",
       ],
-      categories: [filters.PHOTOS],
+      categories: [filters.SYSAD],
     },
     {
       title: "Project Title 4",
