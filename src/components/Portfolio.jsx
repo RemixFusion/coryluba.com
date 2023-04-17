@@ -67,7 +67,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "https://cdn.coryluba.com/portfolio/divaz/1.png",
       sliderImages: [
-        "https://cdn.coryluba.com/portfolio/divaz/2.png",
         "https://cdn.coryluba.com/portfolio/divaz/3.png",
         "https://cdn.coryluba.com/portfolio/divaz/6.png",
       ],
