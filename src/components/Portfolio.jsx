@@ -19,7 +19,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "CIAC Battle of the Fans",
       projectInfo:
-        "The Connecticut Interscholastic Athletic Conference (CIAC) announced the Battle of the Fans (BOTF) contest, where schools would produce a video showing the spirit of the student body and their fan sections, with a focus on school events such as athletics and pep rallies. As a student of Notre Dame High School – West Haven, CT and a member of GoGreenKnights, the schools broadcast club I worked in conjunction with Green Machine, the school spirit/fan section club to begin planning and producing the video for the BOTF contest. I had worked primarily on recording and editing the video with occasional input from Green Machine and school officials, while Green Machine worked primarily on the production including interviews and b-roll shots overlayed over audio. Following the submission of the video, Notre Dame High School was selected as a finalist amongst three other schools, then selected as the winner of 2016-2017 Battle of the Fans (BOTF) contest. ",
+        "The Connecticut Interscholastic Athletic Conference (CIAC) announced the Battle of the Fans (BOTF) contest, where schools would produce a video showing the spirit of the student body and their fan sections, with a focus on school events such as athletics and pep rallies. As a student of Notre Dame High School – West Haven, CT and a member of GoGreenKnights, the schools broadcast club I worked in conjunction with Green Machine, the school spirit/fan section club to begin planning and producing the video for the BOTF contest. I had worked primarily on recording and editing the video with occasional input from Green Machine and school officials, while Green Machine worked primarily on the production including interviews and b-roll shots overlayed over audio. Following the submission of the video, Notre Dame High School was selected as a finalist amongst three other schools, then selected as the winner of 2016-2017 Battle of the Fans (BOTF) contest.",
       client: "Notre Dame High School",
       technologies: "Adobe Premiere Pro, DJI Plantom 4",
       industry: "Videography",
@@ -42,7 +42,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "https://cdn.coryluba.com/portfolio/botf/3.jpg",
         "https://cdn.coryluba.com/portfolio/botf/6.jpg",
       ],
-      sliderVideos: "https://cdn.coryluba.com/pportfolio/botf/video001.mp4",
+      sliderVideos: "https://cdn.coryluba.com/portfolio/botf/video001.mp4",
       categories: [filters.BRAND],
     },
     {
