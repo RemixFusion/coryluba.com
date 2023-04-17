@@ -11,7 +11,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const filters = {
     VIDEO: "Videos",
-    DESIGN: "Desing",
+    DESIGN: "Design",
     BRAND: "Brand",
     PHOTOS: "Photos",
   };
