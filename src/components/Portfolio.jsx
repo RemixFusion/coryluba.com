@@ -42,9 +42,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "https://cdn.coryluba.com/portfolio/botf/3.jpg",
         "https://cdn.coryluba.com/portfolio/botf/6.jpg",
       ],
-      sliderVideos: [
-        "https://cdn.coryluba.com/pportfolio/botf/video001.mp4",
-      ],
+      sliderVideos: "https://cdn.coryluba.com/pportfolio/botf/video001.mp4",
       categories: [filters.BRAND],
     },
     {
