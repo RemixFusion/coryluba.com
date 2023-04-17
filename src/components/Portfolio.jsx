@@ -10,6 +10,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
+    VIDEO: "Videos",
     DESIGN: "Desing",
     BRAND: "Brand",
     PHOTOS: "Photos",
@@ -43,19 +44,19 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "https://cdn.coryluba.com/portfolio/botf/6.jpg",
       ],
       sliderVideos: "https://cdn.coryluba.com/portfolio/botf/video001.mp4",
-      categories: [filters.BRAND],
+      categories: [filters.VIDEO],
     },
     {
-      title: "Project Title 2",
+      title: "DIVAZ Dance Academy Recital",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "In 2018, DIVAZ Dance Adademy reached out requesting videography services for an upcoming recital including USB/DVD drives to be burned following the event. The recital was filmed in HD using a 1080p camera and all edits were made in Adobe Premiere Pro. Copies were burned onto USB drives due to the length of the performance, as well as a digital copy made available via a temporary streaming medium, due to copyright infringement issues with YouTube.",
+      client: "DIVAZ Dance Academy",
+      technologies: "Adobe Premiere Pro",
+      industry: "Videography",
+      date: "2018",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.divazdanceacademy.com",
+        link: "https://www.divazdanceacademy.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -64,12 +65,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-2.jpg",
+      thumbImage: "https://cdn.coryluba.com/portfolio/divaz/1.png",
       sliderImages: [
-        "images/projects/project-2.jpg",
-        "images/projects/project-5.jpg",
+        "https://cdn.coryluba.com/portfolio/divaz/2.png",
+        "https://cdn.coryluba.com/portfolio/divaz/3.png",
+        "https://cdn.coryluba.com/portfolio/divaz/6.png",
       ],
-      categories: [filters.DESIGN],
+      sliderVideos: "https://cdn.coryluba.com/portfolio/divaz/video001.mp4",
+      categories: [filters.VIDEO],
     },
     {
       title: "Project Title 3",
