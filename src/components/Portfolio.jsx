@@ -323,7 +323,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             <h5 className="text-white fw-400">
                               {project.title}
                             </h5>
-                            <span className="text-light">Category</span>
+                            <span className="text-light">{project.categories}</span>
                           </div>
                         </div>
                       </div>
