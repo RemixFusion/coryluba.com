@@ -78,13 +78,13 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                       {projectDetails?.sliderImages?.length > 0 &&
                         projectDetails?.sliderImages?.map((image, index) => (
                           <div className="item" key={index}>
-                            <img className="img-fluid" alt="" src={image} />
+                            <img className="img-fluid" alt="" loading="lazy" src={image} />
                           </div>
                         ))}
                         {projectDetails?.sliderVideos?.length > 0 &&
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
-                            <video src={video} width="100%" autoplay controls>
+                            <video src={video} width="100%" loading="lazy" autoplay controls>
                             </video>
                             </div>
                         ))}
