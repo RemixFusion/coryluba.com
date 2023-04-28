@@ -89,9 +89,6 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             </div>
                         ))}
                     </Slider>
-                    <script>
-                    var player = videojs('my-video')
-                    </script>
                   </div>
                   <div className="col-md-5">
                     <h4
