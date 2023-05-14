@@ -101,7 +101,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Red Rocket Cloud",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Providing web, game, and virtual machine hosting - Red Rocket Cloud was built in 2020 to provide easy virtualized services at affordable prices.",
       client: "Red Rocket Cloud",
       technologies: "Virtualization, Web Hosting, Linux",
       industry: "System Administration",
@@ -128,7 +128,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Red Rocket Net",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Managed network infrastructure for a WISP including management, customer, and other internal segments. Provided DHCP, DNS, and Speedtest servers for customers, and managed the routers, switches, and antennas.",
       client: "Red Rocket Net",
       technologies: "WISP, Ubiquiti, Networking, Bare Metal",
       industry: "System Administration",
@@ -153,11 +153,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "DMTG Technologies",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Provided system administration and game hosting for PokePlanet, a Pixelmon gaming community from 2014 - 2018.",
       client: "DMTG Technologies",
       technologies: "Bare Metal, Game Hosting, Minecraft",
       industry: "System Administration",
-      date: "September 2016",
+      date: "September 2014",
       url: {
         name: "www.dmtgtech.com",
         link: "https://www.dmtgtech.com/",
@@ -169,10 +169,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-6.jpg",
+      thumbImage: "https://cdn.coryluba.com/portfolio/dmtgtech/1.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "https://cdn.coryluba.com/portfolio/dmtgtech/2.png",
       ],
       categories: [filters.SYSAD],
     },
