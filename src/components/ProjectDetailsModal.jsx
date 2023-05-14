@@ -86,6 +86,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
                                 <video controls src={video} />
+                            </div>
                         ))}
                     </Slider>
                   </div>
