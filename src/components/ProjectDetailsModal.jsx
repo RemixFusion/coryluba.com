@@ -84,7 +84,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         {projectDetails?.sliderVideos?.length > 0 &&
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
-                                <video src={video} width="100%" loading="lazy" autoplay controls>
+                                <video src={video} width="100%" autoplay controls>
                                 </video>
                             </div>
                         ))}
