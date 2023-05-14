@@ -42,7 +42,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "https://cdn.coryluba.com/portfolio/botf/1.png",
         "https://cdn.coryluba.com/portfolio/botf/2.png",
         "https://cdn.coryluba.com/portfolio/botf/3.jpg",
-        "https://cdn.coryluba.com/portfolio/botf/6.jpg",
       ],
       sliderVideos: "https://cdn.coryluba.com/portfolio/botf/video001.mp4",
       categories: [filters.VIDEO],
@@ -69,7 +68,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       thumbImage: "https://cdn.coryluba.com/portfolio/divaz/1.png",
       sliderImages: [
         "https://cdn.coryluba.com/portfolio/divaz/3.png",
-        "https://cdn.coryluba.com/portfolio/divaz/6.png",
+        "https://cdn.coryluba.com/portfolio/divaz/1.png",
       ],
       sliderVideos: "https://cdn.coryluba.com/portfolio/divaz/video001.mp4",
       categories: [filters.VIDEO],
