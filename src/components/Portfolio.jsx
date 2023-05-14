@@ -148,19 +148,19 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       sliderImages: [
         "https://cdn.coryluba.com/portfolio/redrocket/2.png",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.SYSAD],
     },
     {
-      title: "Project Title 6",
+      title: "DMTG Technologies",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+      client: "DMTG Technologies",
+      technologies: "Bare Metal, Game Hosting, Minecraft",
+      industry: "System Administration",
+      date: "September 2016",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.dmtgtech.com",
+        link: "https://www.dmtgtech.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -174,7 +174,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.SYSAD],
     },
     {
       title: "Project Title 7",
