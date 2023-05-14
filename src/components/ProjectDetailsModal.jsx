@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import ReactPlayer from "react-player/lazy";
 
 import Slider from "react-slick";
 
