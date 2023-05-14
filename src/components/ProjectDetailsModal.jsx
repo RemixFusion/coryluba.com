@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import ReactPlayer from "react-player/lazy";
 
 import Slider from "react-slick";
 
@@ -84,9 +85,10 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         {projectDetails?.sliderVideos?.length > 0 &&
                           projectDetails?.sliderVideos?.map((video, index) => (
                             <div className="item" key={index}>
-                                <video controls width="100%" autoplay controls>
-                                    <source src={video} type="video/mp4"></source>
-                                </video>
+                                <ReactPlayer 
+                                    width="530px" 
+                                    height="300px" 
+                                    url={video}/>
                             </div>
                         ))}
                     </Slider>
