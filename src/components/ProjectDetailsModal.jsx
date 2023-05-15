@@ -72,6 +72,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         <img
                           className="img-fluid"
                           alt=""
+                          loading="lazy"
                           src={projectDetails?.thumbImage}
                         />
                       </div>
