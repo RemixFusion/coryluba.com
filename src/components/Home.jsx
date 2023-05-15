@@ -11,7 +11,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* ---------------image background------------------ */}
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: 'url("https://cdn.coryluba.com/header/1.webp")' }}
+          style={{ backgroundImage: 'url("https://cdn.coryluba.com/images/header.webp")' }}
         ></div>
 
         {/* -------------------video background---------------------- */}
