@@ -64,10 +64,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "https://cdn.coryluba.com/portfolio/divaz/1-min.png",
+      thumbImage: "https://cdn.coryluba.com/portfolio/divaz/1.webp",
       sliderImages: [
-        "https://cdn.coryluba.com/portfolio/divaz/3.png",
-        "https://cdn.coryluba.com/portfolio/divaz/1.png",
+        "https://cdn.coryluba.com/portfolio/divaz/3.webp",
+        "https://cdn.coryluba.com/portfolio/divaz/1.webp",
       ],
       categories: [filters.VIDEO],
     },
