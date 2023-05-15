@@ -64,7 +64,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "https://cdn.coryluba.com/portfolio/divaz/1.png",
+      thumbImage: "https://cdn.coryluba.com/portfolio/divaz/1-min.png",
       sliderImages: [
         "https://cdn.coryluba.com/portfolio/divaz/3.png",
         "https://cdn.coryluba.com/portfolio/divaz/1.png",
