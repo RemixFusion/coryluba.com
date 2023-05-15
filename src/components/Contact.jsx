@@ -85,15 +85,12 @@ const Contact = ({ classicHeader, darkTheme }) => {
           <div className="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
-                <i className="fas fa-phone" />
               </span>
-              (060) 444 434 444
+              
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
-                <i className="fas fa-fax" />
               </span>
-              (060) 555 545 555
             </p>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
